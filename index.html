@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detektif Matematika</title>
+    <link rel="shortcut icon" href="Images/Stuff/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    
+    <!-- Header Start -->
+
+    <header>
+        <a href="#" class="logo">
+            <img src="Images/Stuff/logo.png" alt="">
+        </a>
+        <div class="menuToggle" onclick="menu()"></div>
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured">Modul</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#test">Kuis</a></li>
+            <div class="display">
+                <label class="switch">
+                    <input type="checkbox" id="check"/> 
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </ul>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Home Start -->
+
+    <section id="home">
+
+        <div class="content">
+            <h2 id="textstep">
+                <span>D</span>etektif <span>M</span>atematika
+            </h2>
+            <h3>
+               Seru Belajar, Cepat Pintar!
+            </h3>
+            <a href="#featured" title="Enjoy Explore!" class="btn" id="welcome">Mulai Belajar!</a>
+       </div>
+    
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="far fa-lightbulb nut1"></div>
+        <div class="fas fa-book-open nut2"></div>
+    
+    </section>
+
+    <!-- Home End -->
+
+    <!--About-->
+
+    <section id="about">
+
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>K</span>ok <span class="u">T</span>ahu<span class="dot">?</span></h2>
+                <p>
+                    "Kok Tahu?" adalah sebuah platform pembelajaran kreatif dan interaktif yang menghadirkan pengalaman belajar yang menyenangkan. Di dalam website ini, Anda akan bertemu dengan "ToFu", maskot yang ramah dan cerdas, yang akan menjadi teman Anda dalam perjalanan belajar.
+                    <br><br>
+                    Disini Anda akan belajar melalui berbagai media interaktif, seperti kuis, games, dan tersedia modul pembelajaran secara gratis! Anda dapat meraih pengetahuan baru dan mengembangkan keterampilan dengan cara yang interaktif dan seru. Bergabunglah dengan kami di "Kok Tahu?" untuk belajar bersama-sama dan temukan betapa menyenangkannya proses pembelajaran!
+                </p>
+
+                <br>
+
+                <p id="quote">"Kok Tahu: Seru Belajar, Cepat Tahu!"</p>
+                <div>
+                    <a href="About/about.html" class="viewDetailButton">Lihat Detail</a>
+                </div>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img id="slider" src="Images/Stuff/maskot.png" alt="My Photos"/>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Fasilitas Section -->
+
+    <section id="facility">
+
+        <div class="services_box">
+            <div class="services_card">
+                <i class="fas fa-coins"></i>
+                <h3>Belajar Gratis</h3>
+                <p>
+                    Belajar melalui modul, kuis, dan materi yang tersedia
+                </p>
+            </div>
+
+            <div class="services_card">
+                <i class="far fa-grin-squint"></i>
+                <h3>Interaktif</h3>
+                <p>
+                    Belajar bersama dengan ToFu
+                <br>
+                    Tentu saja tidak membosankan!
+                </p>
+            </div>
+
+            <div class="services_card">
+                <i class="fas fa-book-reader"></i>
+                <h3>Materi Berkualitas</h3>
+                <p>
+                    Materi yang disediakan berkualitas dan terpercaya
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Module Pembelajaran -->
+
+    <section id="featured">
+        
+        <div class="title">
+            <h2 class="titleText">
+            <span>M</span>odul <span class="u">P</span>embelajaran<span class="dot">.</span>
+            </h2>
+            <p>
+                Tersedia berbagai materi pembelajaran gratis dan seru!
+            </p>
+        </div>
+
+        <div class="featured_boks">
+            <div class="featured_book_box">
+
+                <div class="featured_book_card">
+                    <div class="featurde_book_img">
+                        <img src="Images/Book Cover/NumQuest.jpeg.jpg">
+                    </div>
+                    <div class="featurde_book_tag">
+                        <p class="writer">Bangun Datar</p>
+                        <div class="categories">Matematika</div>
+                        <p class="book_price">1 Halaman</p>
+                        <a href="https://drive.google.com/file/d/1pm617vbeOXMHq9yfazsnP6pjXrI-0wU6/view?usp=sharing" class="f_btn">
+                                Detail Modul
+                        </a>
+                    </div>               
+                </div>
+
+                <div class="featured_book_card">
+                    <div class="featurde_book_img">
+                        <img src="Images/Book Cover/GeoGenius.jpeg.jpg">
+                    </div>
+                    <div class="featurde_book_tag">
+                        <p class="writer">Bilangan Cacah</p>
+                        <div class="categories">Matematika</div>
+                        <p class="book_price">1 Halaman</p>
+                        <a href="https://drive.google.com/file/d/1NdyW0CcKVcglACBGHFytN2OLp6VGu0k9/view?usp=sharing" class="f_btn">Detail Modul</a>
+                    </div>               
+                </div>
+
+                <div class="featured_book_card">
+                    <div class="featurde_book_img">
+                        <img src="Images/Book Cover/TekaBudaya.jpeg.jpg">
+                    </div>
+                    <div class="featurde_book_tag">
+                        <p class="writer">Pecahan</p>
+                            <div class="categories">Matematika</div>
+                        <p class="book_price">1 Halaman</p>
+                        <a href="https://drive.google.com/file/d/1XrCoZic46qQI_Hk4U2hi18H6sCgHXtLq/view?usp=drive_link" class="f_btn">Detail Modul</a>
+                    </div>               
+                </div>
+
+            </div>
+         </div>
+
+    </section>
+
+    <!-- Games Section -->
+
+    <section id="games">
+
+        <div class="title">
+            <h2 class="titleText">
+            <span>P</span>embelajaran <span class="u">I</span>nteraktif<span class="dot">.</span>
+            </h2>
+            <p>
+                Mari belajar sambil bermain bersama ToFu!
+            </p>
+        </div>
+
+        <div class="content">
+
+            <a href="Games/Pasang Angka/index.html">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="Images/Book Cover/keyboard.jpeg.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <h3>Ayo Bermain Pasang Angka</h3>
+                        Matematika
+                    </div>
+                </div>
+            </a>
+
+            <a href="Games/Simple Quiz/SQ.html">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="Images/Book Cover/mathtimer.jpeg.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <h3>Tantangan Matematika!</h3>
+                        Matematika
+                    </div>
+                </div>
+            </a>
+
+            <a href="Games/Tebak Bangun datar/index.html">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="Images/Book Cover/NumQuest.jpeg.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <h3>Ayo tebak bangun datar!</h3>
+                        Matematika
+                    </div>
+                </div>
+            </a>
+           
+            <a href="Games/Tebak Potongan Pizza/index.html">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="Images/Book Cover/hangman.jpeg.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <h3>Tebak Potongan Pizza!</h3>
+                        Matematika
+                    </div>
+                </div>
+            </a>
+                
+            <a href="Games/Simple Calculator/SC.html">
+                 <div class="box">
+                    <div class="imgBx">
+                        <img src="Images/Book Cover/KalkuKuiz.jpeg.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <h3>Butuh bantuan menghitung?</h3>
+                            Matematika - Kalkulator
+                    </div>
+                </div>
+             </a>
+        </div>
+
+    </section>
+
+    <!-- Quiz & Test Section -->
+    <section id="test">
+
+        <div class="row">
+
+            <div class="col50" id="quizImg1">
+                <div class="imgBx">
+                    <img id="slider" src="Images/Stuff/ToFuQuiznobg.png" alt="My Photos"/>
+                </div>
+            </div>
+
+            <div class="col50">
+                <h2 class="titleText"><span>L</span>atihan <span class="u">Y</span>uk<span class="dot">!</span></h2>
+                <p>
+                    "Kok Tahu?" menyediakan latihan soal berupa kuis agar Anda dapat melihat seberapa jauh tingkat pemahamanmu terhadap materi yang sudah dipelajari. Kuis ini tentunya juga sangat menarik dan kamu dapat belajar dari sana!
+                    <br><br>
+                    Selain dari kuis, kami juga menyediakan ujian sederhana untuk memastikan bahwa Anda benar-benar mengerti pelajaran yang ada. Ada hadiah dan <i>badge</i> yang akan diperoleh loh apabila Anda berhasil mendapat nilai bagus. Ayo segera periksa kemampuanmu disini!
+                </p>
+
+                <br>
+
+                <p id="quote">"Kok Tahu: Seru Belajar, Cepat Tahu!"</p>
+
+                <div>
+                    <a href="Quiz/quiz.html" class="viewDetailButton">Lihat Detail</a>
+                </div>
+
+            </div>
+
+            <!-- Responsive -->
+
+            <div class="col50" id="quizImg2">
+                <div class="imgBx">
+                    <img id="slider" src="Images/Stuff/ToFuQuiznobg.png" alt="My Photos"/>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <footer>
+        
+        <div class="footer_main">
+
+            <div class="tag">
+                <img src="Images/Stuff/kokTahu.png">
+                <p>
+                    Belajar tak harus membosankan. Dengan pendekatan yang kreatif dan interaktif, kita bisa meraih pengetahuan seakan-akan kita 'Kok Tahu' segalanya.
+                </p>
+
+            </div>
+
+            <div class="tag">
+                <h1>Arah Bantuan</h1>
+                <ul>
+                    <a href="#home"><i class="fas fa-home"></i>Home</a>
+                    <a href="#about"><i class="far fa-address-card"></i>About</a>
+                    <a href="#featured"><i class="fas fa-book-open"></i>Modul</a>
+                    <a href="#games"><i class="far fa-newspaper"></i>Games</a>
+                    <a href="#test"><i class="fas fa-medal"></i>Kuis</a>
+                </ul>
+            </div>
+
+            <div class="tag">
+                <h1>Info Kontak</h1>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="far fa-envelope"></i>koktahu.official@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Ikuti Kami</h1>
+                <div class="social_link">
+                    <a href="#" ><i class="fab fa-facebook-f social-icon"></i>&nbsp;&nbsp;Facebook</a>
+                    <a href="#" ><i class="fab fa-instagram social-icon"></i> Instagram</a>
+                    <a href="#" ><i class="fab fa-twitter social-icon"></i>Twitter</a>
+                    <a href="#" ><i class="fab fa-linkedin-in social-icon"></i> Linkedin</a>
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Subscribe</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="email@gmail.com">
+                    <button type="submit" id="subscribe">Subscribe</button>
+                </div>                
+            </div>    
+            
+        </div>
+
+        <p class="end">
+            <a href="#">&copy; Detektif Matematika</a>
+        </p>        
+  <!-- <div class="bubbles1">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+       
+    </div>
+
+    <div class="bubbles2">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+        <img src="Images/Stuff/salju.png">
+    </div> -->
+    </footer>
+</body>
+</html>
+    <!-- Bubble Animation -->
+
+  
+
+	 <a href="#" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+	</a>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+    <script src="script.js"></script>
+
+ 
+
